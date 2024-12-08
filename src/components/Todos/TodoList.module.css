@@ -1,0 +1,52 @@
+.todoList {
+  margin-bottom: 30px;
+}
+
+.tasks {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoList li {
+  min-width: 700px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 15px 0;
+  padding: 10px 20px;
+  background-color: antiquewhite;
+}
+.completedTodo {
+  background-color: unset;
+  border-color: black;
+  color: gray;
+  text-decoration: line-through;
+}
+.completedTodo .checkmark,
+.completedTodo .ri,
+.completedTodo .delete {
+  color: gray;
+}
+.ri {
+  margin-right: 10px;
+  font-size: 30px;
+  color: teal;
+}
+.block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checkmark {
+  cursor: pointer;
+  font-size: 50px;
+  color: teal;
+}
+.delete {
+  cursor: pointer;
+  font-size: 50px;
+  color: red;
+}
